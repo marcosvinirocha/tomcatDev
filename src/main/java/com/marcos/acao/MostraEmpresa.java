@@ -28,7 +28,7 @@ public class MostraEmpresa {
 
 		request.setAttribute("empresa", empresa);
 		
-		RequestDispatcher rd = request.getRequestDispatcher("/formAlteraEmpresa.jsp");
+		RequestDispatcher rd = request.getRequestDispatcher("/FormAlteraEmpresa.jsp");
 		rd.forward(request, response);
 	}
 	
