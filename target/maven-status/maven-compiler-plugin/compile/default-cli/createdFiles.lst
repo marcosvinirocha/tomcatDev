@@ -1,9 +1,14 @@
 com/marcos/acao/NovaEmpresa.class
-com/marcos/acao/RemoveEmpresa.class
+com/marcos/servlet/RemoveEmpresaServlet.class
 com/marcos/acao/ListaEmpresas.class
+com/marcos/servlet/AlteraEmpresaServlet.class
+com/marcos/servlet/MostraEmpresaServlet.class
+com/marcos/acao/RemoveEmpresa.class
 com/marcos/acao/AlteraEmpresa.class
 com/marcos/servlet/UnicaEntradaServlet.class
+com/marcos/servlet/ListaEmpresasServlet.class
 com/marcos/modelo/Banco.class
 com/marcos/servlet/OiMundoServlet.class
+com/marcos/servlet/NovaEmpresaServlet.class
 com/marcos/modelo/Empresa.class
 com/marcos/acao/MostraEmpresa.class
