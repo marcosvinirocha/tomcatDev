@@ -1,4 +1,4 @@
-package com.marcos.servlet;
+package com.marcos.modelo;
 
 import java.util.ArrayList;
 import java.util.Iterator;

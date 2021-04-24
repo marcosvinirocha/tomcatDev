@@ -1,4 +1,5 @@
-package com.marcos.servlet;
+package com.marcos.modelo;
+
 import java.util.Date;
 
 public class Empresa {
