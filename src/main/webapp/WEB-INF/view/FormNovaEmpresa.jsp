@@ -10,6 +10,8 @@
     <title>Document</title>
 </head>
 <body>
+
+    <c:import url="logout-parcial.jsp"/>
     
 
     <form method="post" action="${linkServetNovaEmpresa}">

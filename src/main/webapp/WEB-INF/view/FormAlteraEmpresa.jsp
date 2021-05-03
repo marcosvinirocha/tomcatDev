@@ -13,7 +13,7 @@
 </head>
 <body>
     
-
+    <c:import url="logout-parcial.jsp"/>
     <form method="post" action="${linkServetAlteraEmpresa}">
         nome:<input type="text" name="nome" id="" value="${empresa.nome}">
         data de abertura:  <input type="text" name="data" id="" value="<fmt:formatDate value="${empresa.dataAbertura}" pattern="dd/MM/yyyy"/>">

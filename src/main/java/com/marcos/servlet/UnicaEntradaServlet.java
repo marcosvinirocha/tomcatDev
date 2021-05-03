@@ -8,6 +8,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import com.marcos.acao.Acao;
 // import com.marcos.acao.AlteraEmpresa;
@@ -28,6 +29,17 @@ public class UnicaEntradaServlet extends HttpServlet {
             throws ServletException, IOException {
 
 		String paramAcao = request.getParameter("acao");
+
+		// HttpSession	session = request.getSession();
+		// boolean usuarioNaoLogado = (session.getAttribute("usuarioLogado")==null);
+		// boolean ehUmaAcaoProtegida = !(paramAcao.equals("Login") || paramAcao.equals("LoginForm"));
+		
+		// if(ehUmaAcaoProtegida && usuarioNaoLogado){
+		// 	response.sendRedirect("redirect:entrada?acao=LoginForm");
+		// 	return;
+		// }
+
+		
 
 		String className = "com.marcos.acao." + paramAcao;
 		String nome;
